@@ -73,4 +73,4 @@ if streamlit.button("Get Recommendations"):
                 col.write(titles[index])
                 index += 1
 
-# To run the program and open the wab page, enter "streamlit run movie_recommendation_app1.py" as input in terminal
+# To run the program and open the web page, enter "streamlit run movie_recommendation_app1.py" as input in terminal
