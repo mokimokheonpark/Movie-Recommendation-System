@@ -1,17 +1,31 @@
-# Movie-Recommendation
+# Movie Recommendation System
 
+Development of two distinct movie recommendation systems
 
+## Table of Contents
 
-Before running the programs, please transform **tmdb_5000_credits.xlsx** to **tmdb_5000_credits.csv** (from xlsx file to csv file)
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-$~$
+## Overview
 
-To get movie recommendations based on cast, director, genres and keywords, use movie_recommendation_app1.py
+Developed two distinct movie recommendation systems, where one system recommends based on cast, director, genres etc. and the other system recommends based on main plot, storyline, etc.
 
-To run the program and open the web page, enter **streamlit run movie_recommendation_app1.py** as input in terminal
+## Installation
 
-$~$
+Will be updated soon
 
-To get movie recommendations based on overview(main plot points, storyline, etc.), use movie_recommendation_app2.py
+## Usage
 
-To run the program and open the web page, enter **streamlit run movie_recommendation_app2.py** as input in terminal
+Will be updated soon
+
+## Contributing
+
+Will be updated soon
+
+## License
+
+This project is dedicated to the public domain, under the terms of the [Unlicense](http://unlicense.org/). You may use, modify, and distribute this code without restriction or attribution.
