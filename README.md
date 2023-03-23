@@ -16,15 +16,15 @@ Developed two distinct movie recommendation systems, where one system recommends
 
 ## Installation
 
-Will be updated soon
+Will be updated soon.
 
 ## Usage
 
-Will be updated soon
+Will be updated soon.
 
 ## Contributing
 
-Will be updated soon
+Will be updated soon.
 
 ## License
 
