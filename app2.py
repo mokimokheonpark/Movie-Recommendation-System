@@ -4,8 +4,8 @@ import sklearn.metrics.pairwise
 import tmdbv3api
 import streamlit
 
-credits_data = pandas.read_csv("tmdb_5000_credits.csv")
-movies_data = pandas.read_csv("tmdb_5000_movies.csv")
+credits_data = pandas.read_csv("./data/tmdb_5000_credits.csv")
+movies_data = pandas.read_csv("./data/tmdb_5000_movies.csv")
 
 credits_data.columns = ["id", "title", "cast", "crew"]
 
@@ -50,7 +50,7 @@ def get_recommendations(title):
         if image_path:
             image_path = "https://image.tmdb.org/t/p/w500" + image_path
         else:
-            image_path = "no_image.jpg"
+            image_path = "./image/no_image.jpg"
 
         images.append(image_path)
         titles.append(details["title"])
