@@ -8,7 +8,7 @@ The project has the following features:
 - One system is based on cast, director, genres and keywords, and another system is based on overview(main plot points, storyline, etc.).
 - The systems provide multiple recommendations, so the user can discover new movies based on their preferences.
 - The systems display images and titles of the recommended movies, so the user can easily browse and select the movies they want to watch.
-- The systems use the TMDb API to obtain movie data, so the recommendations are based on a large and diverse database of movies.
+- The systems use the TMDB API to obtain movie data, so the recommendations are based on a large and diverse database of movies.
 - The systems support user-friendly interfaces, which allow the user to select a movie and obtain recommendations with just a few clicks.
 
 ## Dependencies
@@ -25,7 +25,7 @@ This project requires the following dependencies:
 To get started with the project, follow the steps below:
 1. Clone the repository using the following command: git clone https://github.com/mokimokheonpark/Movie-Recommendation-System.git
 2. Install the required libraries using the following command: pip install pandas numpy scikit-learn tmdbv3api streamlit
-3. You will need a TMDb API key to access movie data through the TMDB API. Please sign up for an API key at https://www.themoviedb.org/settings/api and replace the value of tmdb.api_key in the codes (line 79 in app1.py and line 32 in app2.py) with your own API key
+3. You will need a TMDb API key to access movie data through the TMDB API. Please sign up for an API key at https://www.themoviedb.org/settings/api and replace the value of tmdb.api_key in the codes (line 79 in app1.py and line 32 in app2.py) with your own API key.
 
 ## Usage
 
