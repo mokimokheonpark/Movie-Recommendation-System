@@ -113,7 +113,7 @@ if streamlit.button("Get Recommendations"):
     with streamlit.spinner("Loading..."):
         images, titles = get_recommendations(title)
         index = 0
-        for _ in range(5):
+        for _ in range(4):
             cols = streamlit.columns(5)
             for col in cols:
                 col.image(images[index])
